@@ -1,0 +1,767 @@
+2026-05-23 14:41:53 Succesfully cleared AutoLogin credentials.
+2026-05-23 14:42:28 Succesfully cleared AutoLogin credentials.
+2026-05-23 14:42:35 Add-DomainUsers: user 'olivier.dupont' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'marie.peeters' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'sophie.janssens' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'thomas.desmet' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'emma.vandamme' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'lucas.verhoeven' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'alexander.maes' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'julie.debacker' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'laura.claes' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'noah.willems' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'dany.dedeken' already exists, skipped.
+2026-05-23 14:42:35 Add-DomainUsers: user 'patrick.demeersman' already exists, skipped.
+2026-05-23 14:52:26 Succesfully cleared AutoLogin credentials.
+2026-05-23 14:54:38 Succesfully cleared AutoLogin credentials.
+2026-05-23 14:54:47 Created OU: Corporate in DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Management in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Executives in OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Department Heads in OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: HR in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Finance in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Operations in DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: IT in OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Development in OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Support in OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Production in OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Manufacturing in OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Quality Assurance in OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Sales in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: Domestic in OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:47 Created OU: International in OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-23 14:54:55 AD-Domain-Services was already installed
+2026-05-23 14:54:57 ERROR in Install-DomainController: You cannot call a method on a null-valued expression.
+2026-05-23 14:55:14 AD-Domain-Services was already installed
+2026-05-23 14:55:39 Joined existing domain as aditional DC: BelgoCorpASo.lab
+2026-05-23 14:55:48 ERROR in Add-OU: An attempt was made to add an object to the directory with a name that is already in use
+2026-05-23 14:55:58 Add-SecurityGroups: OU 'GL_Groups' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:55:58 Add-SecurityGroups: OU 'DL_Groups' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:02 Add-DomainUsers: OU 'Executives' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:02 Add-DomainUsers: user 'olivier.dupont' created in OU 'Executives'.
+2026-05-23 14:57:02 Add-DomainUsers: OU 'Department Heads' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:02 Add-DomainUsers: user 'marie.peeters' created in OU 'Department Heads'.
+2026-05-23 14:57:02 Add-DomainUsers: OU 'HR' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:02 Add-DomainUsers: user 'sophie.janssens' created in OU 'HR'.
+2026-05-23 14:57:02 Add-DomainUsers: OU 'Finance' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:02 Add-DomainUsers: user 'thomas.desmet' created in OU 'Finance'.
+2026-05-23 14:57:02 Add-DomainUsers: OU 'Development' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:02 Add-DomainUsers: user 'emma.vandamme' created in OU 'Development'.
+2026-05-23 14:57:02 Add-DomainUsers: OU 'Support' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:02 Add-DomainUsers: user 'lucas.verhoeven' created in OU 'Support'.
+2026-05-23 14:57:03 Add-DomainUsers: OU 'Manufacturing' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:03 Add-DomainUsers: user 'alexander.maes' created in OU 'Manufacturing'.
+2026-05-23 14:57:03 Add-DomainUsers: OU 'Quality Assurance' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:03 Add-DomainUsers: user 'julie.debacker' created in OU 'Quality Assurance'.
+2026-05-23 14:57:03 Add-DomainUsers: OU 'Domestic' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:03 Add-DomainUsers: user 'laura.claes' created in OU 'Domestic'.
+2026-05-23 14:57:03 Add-DomainUsers: OU 'International' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:03 Add-DomainUsers: user 'noah.willems' created in OU 'International'.
+2026-05-23 14:57:03 Add-DomainUsers: OU 'General IT' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-23 14:57:03 Add-DomainUsers: user 'dany.dedeken' created in OU 'General IT'.
+2026-05-23 14:57:03 Add-DomainUsers: user 'patrick.demeersman' created in OU 'General IT'.
+2026-05-23 15:00:25 Succesfully cleared AutoLogin credentials.
+2026-05-23 15:00:31 Added user: olivier.dupont to securitygroup: GL_Corporate_Management_RW
+2026-05-23 15:00:31 ERROR in Add-UsersToSecurityGroups: The term 'else' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-05-23 15:01:29 Succesfully cleared AutoLogin credentials.
+2026-05-23 15:01:32 Added user: olivier.dupont to securitygroup: GL_Corporate_Management_RW
+2026-05-23 15:01:32 Added user: olivier.dupont to securitygroup: DL_Corporate_HR_RW
+2026-05-23 15:01:32 Added user: olivier.dupont to securitygroup: DL_Corporate_Finance_RW
+2026-05-23 15:01:32 Added user: marie.peeters to securitygroup: GL_Corporate_Management_RW
+2026-05-23 15:01:32 Added user: marie.peeters to securitygroup: DL_Corporate_HR_R
+2026-05-23 15:01:32 Added user: sophie.janssens to securitygroup: DL_Corporate_HR_RW
+2026-05-23 15:01:32 Added user: thomas.desmet to securitygroup: DL_Corporate_Finance_RW
+2026-05-23 15:01:32 Added user: thomas.desmet to securitygroup: DL_Corporate_HR_R
+2026-05-23 15:01:32 Added user: emma.vandamme to securitygroup: GL_Operations_IT_RW
+2026-05-23 15:01:32 Added user: lucas.verhoeven to securitygroup: GL_Operations_IT_RW
+2026-05-23 15:01:32 Added user: alexander.maes to securitygroup: DL_Operations_Production_RW
+2026-05-23 15:01:32 Added user: julie.debacker to securitygroup: DL_Operations_Production_RW
+2026-05-23 15:01:32 Added user: laura.claes to securitygroup: DL_Sales_Domestic_RW
+2026-05-23 15:01:32 Added user: laura.claes to securitygroup: DL_Sales_International_R
+2026-05-23 15:01:32 Added user: noah.willems to securitygroup: DL_Sales_International_RW
+2026-05-23 15:01:32 Added user: noah.willems to securitygroup: DL_Sales_Domestic_R
+2026-05-23 15:01:32 Added user: dany.dedeken to securitygroup: GL_Operations_IT_RW
+2026-05-23 15:01:32 ERROR: group 'GL_Infrastructure_RW' not found, skipped for 'dany.dedeken'.
+2026-05-23 15:01:32 Added user: patrick.demeersman to securitygroup: GL_Operations_IT_RW
+2026-05-23 15:01:32 ERROR: group 'GL_Infrastructure_RW' not found, skipped for 'patrick.demeersman'.
+2026-05-24 14:32:41 Succesfully cleared AutoLogin credentials.
+2026-05-24 15:05:32 Succesfully cleared AutoLogin credentials.
+2026-05-24 15:05:38 Succesfully created c:\data\users\ppienter
+2026-05-24 15:05:38 Succesfully created c:\Corporate\Management
+2026-05-24 15:05:38 Succesfully created c:\Corporate\HR
+2026-05-24 15:05:38 Succesfully created c:\Corporate\Finance
+2026-05-24 15:05:38 Succesfully created c:\Operations\IT
+2026-05-24 15:05:38 Succesfully created c:\Operations\Production
+2026-05-24 15:05:38 Succesfully created c:\Sales\Domestic
+2026-05-24 15:05:38 Succesfully created c:\Sales\International
+2026-05-24 15:05:38 Succesfully created C:\Infrastructure
+2026-05-24 15:52:40 Succesfully cleared AutoLogin credentials.
+2026-05-24 15:52:45 Succesfully cleared AutoLogin credentials.
+2026-05-24 16:00:31 Succesfully cleared AutoLogin credentials.
+2026-05-24 16:02:47 Succesfully cleared AutoLogin credentials.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'Executives' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'olivier.dupont' created in OU 'Executives'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'Department Heads' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'marie.peeters' created in OU 'Department Heads'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'HR' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'sophie.janssens' created in OU 'HR'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'Finance' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'thomas.desmet' created in OU 'Finance'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'Development' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'emma.vandamme' created in OU 'Development'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'Support' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'lucas.verhoeven' created in OU 'Support'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'Manufacturing' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'alexander.maes' created in OU 'Manufacturing'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'Quality Assurance' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'julie.debacker' created in OU 'Quality Assurance'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'Domestic' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'laura.claes' created in OU 'Domestic'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'International' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'noah.willems' created in OU 'International'.
+2026-05-24 16:02:59 Add-DomainUsers: OU 'General IT' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'dany.dedeken' created in OU 'General IT'.
+2026-05-24 16:02:59 Add-DomainUsers: user 'patrick.demeersman' created in OU 'General IT'.
+2026-05-24 17:57:21 Succesfully cleared AutoLogin credentials.
+2026-05-24 17:57:25 Succesfully cleared AutoLogin credentials.
+2026-05-24 18:38:41 Succesfully cleared AutoLogin credentials.
+2026-05-24 18:38:45 Created OU: Corporate in DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:45 Created OU: Management in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Executives in OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Department Heads in OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: HR in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Finance in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Operations in DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: IT in OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Development in OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Support in OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Production in OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Manufacturing in OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Quality Assurance in OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Sales in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: Domestic in OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:38:46 Created OU: International in OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:39:02 ERROR in Add-OU: An attempt was made to add an object to the directory with a name that is already in use
+2026-05-24 18:39:41 Succesfully cleared AutoLogin credentials.
+2026-05-24 18:39:44 ERROR in Add-OU: An attempt was made to add an object to the directory with a name that is already in use
+2026-05-24 18:43:27 Succesfully cleared AutoLogin credentials.
+2026-05-24 18:45:17 Succesfully cleared AutoLogin credentials.
+2026-05-24 18:45:20 Created OU: Corporate in DC=BelgoCorpASo,DC=lab
+2026-05-24 18:45:20 Created OU: Management in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:45:20 Created OU: Executives in OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:45:20 Created OU: Department Heads in OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:45:20 Created OU: HR in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:45:20 Created OU: Finance in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:45:20 Created OU: Sales in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:45:20 Created OU: Domestic in OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 18:45:20 Created OU: International in OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:10:56 Succesfully cleared AutoLogin credentials.
+2026-05-24 19:11:12 #### Creating domain users... ####
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'Executives': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'Department Heads': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'HR': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'Finance': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'Development': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'Support': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'Manufacturing': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'Quality Assurance': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'Domestic': Directory object not found
+2026-05-24 19:11:12 ERROR in Add-DomainUsers: could not create OU 'International': Directory object not found
+2026-05-24 19:11:12 Add-DomainUsers: created missing OU 'General IT' in 'DC=BelgoCorpASo,DC=lab'
+2026-05-24 19:11:12 Add-DomainUsers: created user 'dany.dedeken' (Dany De Deken) in OU 'General IT' (OU=General IT,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:11:12 Add-DomainUsers: created user 'patrick.demeersman' (Patrick De Meersman) in OU 'General IT' (OU=General IT,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:46 Created OU: Corporate in DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Management in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Executives in OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Department Heads in OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: HR in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Finance in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Operations in DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: IT in OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Development in OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Support in OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Production in OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Manufacturing in OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Quality Assurance in OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Sales in OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: Domestic in OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:46 Created OU: International in OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab
+2026-05-24 19:12:50 #### Creating domain users... ####
+2026-05-24 19:12:50 Add-DomainUsers: created user 'olivier.dupont' (Olivier Dupont) in OU 'Executives' (OU=Executives,OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:50 Add-DomainUsers: created user 'marie.peeters' (Marie Peeters) in OU 'Department Heads' (OU=Department Heads,OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:50 Add-DomainUsers: created user 'sophie.janssens' (Sophie Janssens) in OU 'HR' (OU=HR,OU=Corporate,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:50 Add-DomainUsers: created user 'thomas.desmet' (Thomas De Smet) in OU 'Finance' (OU=Finance,OU=Corporate,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:50 Add-DomainUsers: created user 'emma.vandamme' (Emma Van Damme) in OU 'Development' (OU=Development,OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:51 Add-DomainUsers: created user 'lucas.verhoeven' (Lucas Verhoeven) in OU 'Support' (OU=Support,OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:51 Add-DomainUsers: created user 'alexander.maes' (Alexander Maes) in OU 'Manufacturing' (OU=Manufacturing,OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:51 Add-DomainUsers: created user 'julie.debacker' (Julie De Backer) in OU 'Quality Assurance' (OU=Quality Assurance,OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:51 Add-DomainUsers: created user 'laura.claes' (Laura Claes) in OU 'Domestic' (OU=Domestic,OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:51 Add-DomainUsers: created user 'noah.willems' (Noah Willems) in OU 'International' (OU=International,OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:51 Add-DomainUsers: created missing OU 'General IT' in 'DC=BelgoCorpASo,DC=lab'
+2026-05-24 19:12:51 Add-DomainUsers: created user 'dany.dedeken' (Dany De Deken) in OU 'General IT' (OU=General IT,DC=BelgoCorpASo,DC=lab)
+2026-05-24 19:12:51 Add-DomainUsers: created user 'patrick.demeersman' (Patrick De Meersman) in OU 'General IT' (OU=General IT,DC=BelgoCorpASo,DC=lab)
+2026-05-25 13:13:52 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:14:16 ERROR in Add-OU: Could not find file 'C:\Users\Administrator\Documents\scripting\settings\ou.csv'.
+2026-05-25 13:15:42 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:15:44 Attempting creation of organizational units...
+2026-05-25 13:15:44 Created OU 'Corporate' in 'DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Management' in 'OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Executives' in 'OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Department Heads' in 'OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'HR' in 'OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Finance' in 'OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Operations' in 'DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'IT' in 'OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Development' in 'OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Support' in 'OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Production' in 'OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Manufacturing' in 'OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Quality Assurance' in 'OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Sales' in 'OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'Domestic' in 'OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:15:44 Created OU 'International' in 'OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-25 13:16:12 Attempting creation of organizational units...
+2026-05-25 13:16:39 Attempting creation of organizational units...
+2026-05-25 13:16:41 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:16:43 Attempting creation of organizational units...
+2026-05-25 13:17:11 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:17:13 Attempting creation of organizational units...
+2026-05-25 13:17:58 ERROR in Add-DomainUsers: The term 'Convert-PathToLDAP' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-05-25 13:22:30 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:22:36 Add-DomainUsers: created user 'olivier.dupont' (Olivier Dupont) in OU 'Executives'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'marie.peeters' (Marie Peeters) in OU 'Department Heads'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'sophie.janssens' (Sophie Janssens) in OU 'HR'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'thomas.desmet' (Thomas De Smet) in OU 'Finance'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'emma.vandamme' (Emma Van Damme) in OU 'Development'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'lucas.verhoeven' (Lucas Verhoeven) in OU 'Support'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'alexander.maes' (Alexander Maes) in OU 'Manufacturing'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'julie.debacker' (Julie De Backer) in OU 'Quality Assurance'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'laura.claes' (Laura Claes) in OU 'Domestic'
+2026-05-25 13:22:36 Add-DomainUsers: created user 'noah.willems' (Noah Willems) in OU 'International'
+2026-05-25 13:22:36 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'dany.dedeken'.
+2026-05-25 13:22:36 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'patrick.demeersman'.
+2026-05-25 13:23:02 Add-DomainUsers: user 'olivier.dupont' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'marie.peeters' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'sophie.janssens' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'thomas.desmet' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'emma.vandamme' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'lucas.verhoeven' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'alexander.maes' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'julie.debacker' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'laura.claes' already exists, skipped.
+2026-05-25 13:23:02 Add-DomainUsers: user 'noah.willems' already exists, skipped.
+2026-05-25 13:23:02 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'dany.dedeken'.
+2026-05-25 13:23:02 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'patrick.demeersman'.
+2026-05-25 13:30:54 Add-DomainUsers: user 'olivier.dupont' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'marie.peeters' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'sophie.janssens' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'thomas.desmet' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'emma.vandamme' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'lucas.verhoeven' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'alexander.maes' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'julie.debacker' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'laura.claes' already exists, skipped.
+2026-05-25 13:30:54 Add-DomainUsers: user 'noah.willems' already exists, skipped.
+2026-05-25 13:30:54 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'dany.dedeken'.
+2026-05-25 13:30:54 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'patrick.demeersman'.
+2026-05-25 13:32:32 ERROR: group 'GL_Corporate_Management_RW' not found, skipped for 'olivier.dupont'.
+2026-05-25 13:32:32 ERROR: group 'DL_Corporate_HR_RW' not found, skipped for 'olivier.dupont'.
+2026-05-25 13:32:32 ERROR: group 'DL_Corporate_Finance_RW' not found, skipped for 'olivier.dupont'.
+2026-05-25 13:32:32 ERROR: group 'GL_Corporate_Management_RW' not found, skipped for 'marie.peeters'.
+2026-05-25 13:32:32 ERROR: group 'DL_Corporate_HR_R' not found, skipped for 'marie.peeters'.
+2026-05-25 13:32:32 ERROR: group 'DL_Corporate_HR_RW' not found, skipped for 'sophie.janssens'.
+2026-05-25 13:32:32 ERROR: group 'DL_Corporate_Finance_RW' not found, skipped for 'thomas.desmet'.
+2026-05-25 13:32:32 ERROR: group 'DL_Corporate_HR_R' not found, skipped for 'thomas.desmet'.
+2026-05-25 13:32:32 ERROR: group 'GL_Operations_IT_RW' not found, skipped for 'emma.vandamme'.
+2026-05-25 13:32:32 ERROR: group 'GL_Operations_IT_RW' not found, skipped for 'lucas.verhoeven'.
+2026-05-25 13:32:32 ERROR: group 'DL_Operations_Production_RW' not found, skipped for 'alexander.maes'.
+2026-05-25 13:32:32 ERROR: group 'DL_Operations_Production_RW' not found, skipped for 'julie.debacker'.
+2026-05-25 13:32:32 ERROR: group 'DL_Sales_Domestic_RW' not found, skipped for 'laura.claes'.
+2026-05-25 13:32:32 ERROR: group 'DL_Sales_International_R' not found, skipped for 'laura.claes'.
+2026-05-25 13:32:32 ERROR: group 'DL_Sales_International_RW' not found, skipped for 'noah.willems'.
+2026-05-25 13:32:32 ERROR: group 'DL_Sales_Domestic_R' not found, skipped for 'noah.willems'.
+2026-05-25 13:32:32 ERROR: group 'GL_Operations_IT_RW' not found, skipped for 'dany.dedeken'.
+2026-05-25 13:32:32 ERROR: group 'GL_Infrastructure_RW' not found, skipped for 'dany.dedeken'.
+2026-05-25 13:32:32 ERROR: group 'GL_Operations_IT_RW' not found, skipped for 'patrick.demeersman'.
+2026-05-25 13:32:32 ERROR: group 'GL_Infrastructure_RW' not found, skipped for 'patrick.demeersman'.
+2026-05-25 13:32:38 Add-SecurityGroups: OU 'GL_Groups' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-25 13:32:38 Add-SecurityGroups: OU 'DL_Groups' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-25 13:32:44 Added user: olivier.dupont to securitygroup: GL_Corporate_Management_RW
+2026-05-25 13:32:44 Added user: olivier.dupont to securitygroup: DL_Corporate_HR_RW
+2026-05-25 13:32:44 Added user: olivier.dupont to securitygroup: DL_Corporate_Finance_RW
+2026-05-25 13:32:44 Added user: marie.peeters to securitygroup: GL_Corporate_Management_RW
+2026-05-25 13:32:44 Added user: marie.peeters to securitygroup: DL_Corporate_HR_R
+2026-05-25 13:32:44 Added user: sophie.janssens to securitygroup: DL_Corporate_HR_RW
+2026-05-25 13:32:44 Added user: thomas.desmet to securitygroup: DL_Corporate_Finance_RW
+2026-05-25 13:32:44 Added user: thomas.desmet to securitygroup: DL_Corporate_HR_R
+2026-05-25 13:32:44 Added user: emma.vandamme to securitygroup: GL_Operations_IT_RW
+2026-05-25 13:32:44 Added user: lucas.verhoeven to securitygroup: GL_Operations_IT_RW
+2026-05-25 13:32:44 Added user: alexander.maes to securitygroup: DL_Operations_Production_RW
+2026-05-25 13:32:44 Added user: julie.debacker to securitygroup: DL_Operations_Production_RW
+2026-05-25 13:32:44 Added user: laura.claes to securitygroup: DL_Sales_Domestic_RW
+2026-05-25 13:32:44 Added user: laura.claes to securitygroup: DL_Sales_International_R
+2026-05-25 13:32:44 Added user: noah.willems to securitygroup: DL_Sales_International_RW
+2026-05-25 13:32:44 Added user: noah.willems to securitygroup: DL_Sales_Domestic_R
+2026-05-25 13:32:44 Added user: dany.dedeken to securitygroup: GL_Operations_IT_RW
+2026-05-25 13:32:44 ERROR: group 'GL_Infrastructure_RW' not found, skipped for 'dany.dedeken'.
+2026-05-25 13:32:44 Added user: patrick.demeersman to securitygroup: GL_Operations_IT_RW
+2026-05-25 13:32:44 ERROR: group 'GL_Infrastructure_RW' not found, skipped for 'patrick.demeersman'.
+2026-05-25 13:34:14 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:34:20 Succesfully created c:\data\users\ppienter
+2026-05-25 13:34:20 Succesfully created c:\Corporate\Management
+2026-05-25 13:34:20 Succesfully created c:\Corporate\HR
+2026-05-25 13:34:20 Succesfully created c:\Corporate\Finance
+2026-05-25 13:34:20 Succesfully created c:\Operations\IT
+2026-05-25 13:34:20 Succesfully created c:\Operations\Production
+2026-05-25 13:34:20 Succesfully created c:\Sales\Domestic
+2026-05-25 13:34:20 Succesfully created c:\Sales\International
+2026-05-25 13:34:20 Succesfully created C:\Infrastructure
+2026-05-25 13:37:21 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:37:24 ERROR in Add-Directory: An item with the specified name C:\data\users\ppienter already exists.
+2026-05-25 13:37:26 ERROR in Add-Directory: An item with the specified name C:\Corporate\Management already exists.
+2026-05-25 13:37:28 ERROR in Add-Directory: An item with the specified name C:\Corporate\HR already exists.
+2026-05-25 13:37:30 ERROR in Add-Directory: An item with the specified name C:\Corporate\Finance already exists.
+2026-05-25 13:37:32 ERROR in Add-Directory: An item with the specified name C:\Operations\IT already exists.
+2026-05-25 13:37:34 ERROR in Add-Directory: An item with the specified name C:\Operations\Production already exists.
+2026-05-25 13:37:44 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\data\users\ppienter already exists.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\Corporate\Management already exists.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\Corporate\HR already exists.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\Corporate\Finance already exists.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\Operations\IT already exists.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\Operations\Production already exists.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\Sales\Domestic already exists.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\Sales\International already exists.
+2026-05-25 13:37:48 ERROR in Add-Directory: An item with the specified name C:\Infrastructure already exists.
+2026-05-25 13:38:32 Successfully created c:\data\users\ppienter
+2026-05-25 13:38:32 Successfully created c:\Corporate\Management
+2026-05-25 13:38:32 Successfully created c:\Corporate\HR
+2026-05-25 13:38:32 Successfully created c:\Corporate\Finance
+2026-05-25 13:38:32 Successfully created c:\Operations\IT
+2026-05-25 13:38:32 Successfully created c:\Operations\Production
+2026-05-25 13:38:32 Successfully created c:\Sales\Domestic
+2026-05-25 13:38:32 Successfully created c:\Sales\International
+2026-05-25 13:38:32 Successfully created C:\Infrastructure
+2026-05-25 13:38:36 ERROR in Add-Directory: An item with the specified name C:\data\users\ppienter already exists.
+2026-05-25 13:38:37 ERROR in Add-Directory: An item with the specified name C:\Corporate\Management already exists.
+2026-05-25 13:38:37 ERROR in Add-Directory: An item with the specified name C:\Corporate\HR already exists.
+2026-05-25 13:38:37 ERROR in Add-Directory: An item with the specified name C:\Corporate\Finance already exists.
+2026-05-25 13:38:37 ERROR in Add-Directory: An item with the specified name C:\Operations\IT already exists.
+2026-05-25 13:38:37 ERROR in Add-Directory: An item with the specified name C:\Operations\Production already exists.
+2026-05-25 13:38:37 ERROR in Add-Directory: An item with the specified name C:\Sales\Domestic already exists.
+2026-05-25 13:38:37 ERROR in Add-Directory: An item with the specified name C:\Sales\International already exists.
+2026-05-25 13:38:37 ERROR in Add-Directory: An item with the specified name C:\Infrastructure already exists.
+2026-05-25 13:59:43 Succesfully cleared AutoLogin credentials.
+2026-05-25 13:59:46 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 13:59:46 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 13:59:46 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 13:59:47 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 13:59:47 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 13:59:47 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 13:59:47 Share created: Data_International --> c:\Sales\International
+2026-05-25 13:59:47 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:01:43 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:01:46 Directory created: c:\Corporate\Management
+2026-05-25 14:01:46     ERROR in Add-Shares: The name has already been shared. 
+2026-05-25 14:03:01 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:03:05 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:03:05 Directory created: c:\Corporate\HR
+2026-05-25 14:03:05 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:03:05 Directory created: c:\Corporate\Finance
+2026-05-25 14:03:05 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:03:05 Directory created: c:\Operations\IT
+2026-05-25 14:03:05 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:03:05 Directory created: c:\Operations\Production
+2026-05-25 14:03:05 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:03:05 Directory created: c:\Sales\Domestic
+2026-05-25 14:03:06 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:03:06 Directory created: c:\Sales\International
+2026-05-25 14:03:06 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:03:06 Directory created: C:\Infrastructure
+2026-05-25 14:03:06 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:03:17 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:03:21 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:03:21 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:03:21 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:03:21 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:03:21 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:03:22 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:03:22 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:03:22 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:03:50 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:03:51 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:03:51 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:03:52 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:03:52 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:03:52 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:03:52 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:03:52 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:03:52 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:04:06 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:04:07 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:04:08 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:04:08 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:04:08 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:04:08 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:04:08 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:04:08 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:04:08 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:04:23 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:04:25 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:04:25 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:04:25 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:04:25 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:04:25 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:04:25 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:04:25 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:04:26 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:08:41 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:08:43 Share Data_Management skipped (already exists).
+2026-05-25 14:08:44 Share Data_HR skipped (already exists).
+2026-05-25 14:08:44 Share Data_Finance skipped (already exists).
+2026-05-25 14:08:44 Share Data_IT skipped (already exists).
+2026-05-25 14:08:44 Share Data_Production skipped (already exists).
+2026-05-25 14:08:44 Share Data_Domestic skipped (already exists).
+2026-05-25 14:08:44 Share Data_International skipped (already exists).
+2026-05-25 14:08:44 Share Data_Infrastucture skipped (already exists).
+2026-05-25 14:09:29 Directory created: c:\Corporate\Management
+2026-05-25 14:09:29 Share Data_Management skipped (already exists).
+2026-05-25 14:09:29 Directory created: c:\Corporate\HR
+2026-05-25 14:09:29 Share Data_HR skipped (already exists).
+2026-05-25 14:09:29 Directory created: c:\Corporate\Finance
+2026-05-25 14:09:29 Share Data_Finance skipped (already exists).
+2026-05-25 14:09:29 Directory created: c:\Operations\IT
+2026-05-25 14:09:29 Share Data_IT skipped (already exists).
+2026-05-25 14:09:29 Directory created: c:\Operations\Production
+2026-05-25 14:09:29 Share Data_Production skipped (already exists).
+2026-05-25 14:09:29 Directory created: c:\Sales\Domestic
+2026-05-25 14:09:29 Share Data_Domestic skipped (already exists).
+2026-05-25 14:09:29 Directory created: c:\Sales\International
+2026-05-25 14:09:29 Share Data_International skipped (already exists).
+2026-05-25 14:09:29 Directory created: C:\Infrastructure
+2026-05-25 14:09:29 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:13:55 Directory created: c:\Corporate\Management
+2026-05-25 14:13:55 Share Data_Management skipped (already exists).
+2026-05-25 14:13:55 Directory created: c:\Corporate\HR
+2026-05-25 14:13:55 Share Data_HR skipped (already exists).
+2026-05-25 14:13:55 Directory created: c:\Corporate\Finance
+2026-05-25 14:13:55 Share Data_Finance skipped (already exists).
+2026-05-25 14:13:56 Directory created: c:\Operations\IT
+2026-05-25 14:13:56 Share Data_IT skipped (already exists).
+2026-05-25 14:13:56 Directory created: c:\Operations\Production
+2026-05-25 14:13:56 Share Data_Production skipped (already exists).
+2026-05-25 14:13:56 Directory created: c:\Sales\Domestic
+2026-05-25 14:13:56 Share Data_Domestic skipped (already exists).
+2026-05-25 14:13:56 Directory created: c:\Sales\International
+2026-05-25 14:13:56 Share Data_International skipped (already exists).
+2026-05-25 14:13:56 Directory created: C:\Infrastructure
+2026-05-25 14:13:56 Share Data_Infrastucture skipped (already exists).
+2026-05-25 14:15:24 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:15:27 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:15:27 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:15:27 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:15:27 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:15:27 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:15:27 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:15:27 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:15:27 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:16:58 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:16:58 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:16:58 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:16:58 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:16:58 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:16:58 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:16:58 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:16:58 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:18:59 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:18:59 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:18:59 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:18:59 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:19:00 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:19:00 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:19:00 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:19:00 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:19:24 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:19:27 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:19:27 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:19:27 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:19:27 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:19:27 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:19:27 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:19:27 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:19:28 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:20:20 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:20:24 Share created: Data_Management --> c:\Corporate\Management
+2026-05-25 14:20:24 Share created: Data_HR --> c:\Corporate\HR
+2026-05-25 14:20:24 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-25 14:20:24 Share created: Data_IT --> c:\Operations\IT
+2026-05-25 14:20:24 Share created: Data_Production --> c:\Operations\Production
+2026-05-25 14:20:25 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-25 14:20:25 Share created: Data_International --> c:\Sales\International
+2026-05-25 14:20:25 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-25 14:20:57 Share Data_Management skipped (already exists).
+2026-05-25 14:20:57 Share Data_HR skipped (already exists).
+2026-05-25 14:20:57 Share Data_Finance skipped (already exists).
+2026-05-25 14:20:57 Share Data_IT skipped (already exists).
+2026-05-25 14:20:57 Share Data_Production skipped (already exists).
+2026-05-25 14:20:57 Share Data_Domestic skipped (already exists).
+2026-05-25 14:20:57 Share Data_International skipped (already exists).
+2026-05-25 14:20:57 Share Data_Infrastucture skipped (already exists).
+2026-05-25 14:20:59 Share Data_Management skipped (already exists).
+2026-05-25 14:20:59 Share Data_HR skipped (already exists).
+2026-05-25 14:20:59 Share Data_Finance skipped (already exists).
+2026-05-25 14:20:59 Share Data_IT skipped (already exists).
+2026-05-25 14:20:59 Share Data_Production skipped (already exists).
+2026-05-25 14:20:59 Share Data_Domestic skipped (already exists).
+2026-05-25 14:20:59 Share Data_International skipped (already exists).
+2026-05-25 14:20:59 Share Data_Infrastucture skipped (already exists).
+2026-05-25 14:22:35 Share Data_Management skipped (already exists).
+2026-05-25 14:22:35 Share Data_HR skipped (already exists).
+2026-05-25 14:22:35 Share Data_Finance skipped (already exists).
+2026-05-25 14:22:35 Share Data_IT skipped (already exists).
+2026-05-25 14:22:35 Share Data_Production skipped (already exists).
+2026-05-25 14:22:35 Share Data_Domestic skipped (already exists).
+2026-05-25 14:22:35 Share Data_International skipped (already exists).
+2026-05-25 14:22:35 Share Data_Infrastucture skipped (already exists).
+2026-05-25 14:54:04 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:54:47 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:54:56 Group not found, skipping: GL_Corporate_Management_R
+2026-05-25 14:54:56 Group not found, skipping: GL_Corporate_Management_RW
+2026-05-25 14:54:56 NTFS permission set: DL_Corporate_HR_R --> c:\Corporate\HR (read)
+2026-05-25 14:54:56     Share permission set: DL_Corporate_HR_R --> Data_HR (read)
+2026-05-25 14:54:56 NTFS permission set: DL_Corporate_HR_RW --> c:\Corporate\HR (modify)
+2026-05-25 14:54:56     Share permission set: DL_Corporate_HR_RW --> Data_HR (change)
+2026-05-25 14:54:56 NTFS permission set: DL_Corporate_Finance_R --> c:\Corporate\Finance (read)
+2026-05-25 14:54:56     Share permission set: DL_Corporate_Finance_R --> Data_Finance (read)
+2026-05-25 14:54:56 NTFS permission set: DL_Corporate_Finance_RW --> c:\Corporate\Finance (modify)
+2026-05-25 14:54:56     Share permission set: DL_Corporate_Finance_RW --> Data_Finance (change)
+2026-05-25 14:54:56 Group not found, skipping: GL_Operations_IT_R
+2026-05-25 14:54:56 Group not found, skipping: GL_Operations_IT_RW
+2026-05-25 14:54:57 NTFS permission set: DL_Operations_Production_R --> c:\Operations\Production (read)
+2026-05-25 14:54:57     Share permission set: DL_Operations_Production_R --> Data_Production (read)
+2026-05-25 14:54:57 NTFS permission set: DL_Operations_Production_RW --> c:\Operations\Production (modify)
+2026-05-25 14:54:57     Share permission set: DL_Operations_Production_RW --> Data_Production (change)
+2026-05-25 14:54:57 NTFS permission set: DL_Operations_Production_R --> c:\Sales\Domestic (read)
+2026-05-25 14:54:57     Share permission set: DL_Operations_Production_R --> Data_Domestic (read)
+2026-05-25 14:54:57 NTFS permission set: DL_Operations_Production_RW --> c:\Sales\Domestic (modify)
+2026-05-25 14:54:57     Share permission set: DL_Operations_Production_RW --> Data_Domestic (change)
+2026-05-25 14:54:57 NTFS permission set: DL_Sales_International_R --> c:\Sales\International (read)
+2026-05-25 14:54:57     Share permission set: DL_Sales_International_R --> Data_International (read)
+2026-05-25 14:54:57 Group not found, skipping: DL_Sales_International_RW
+2026-05-25 14:54:57 Group not found, skipping: GL_Infrastructure_R
+2026-05-25 14:54:57 Group not found, skipping: GL_Infrastructure_RW
+2026-05-25 14:55:25 Group not found, skipping: GL_Corporate_Management_R
+2026-05-25 14:55:25 Group not found, skipping: GL_Corporate_Management_RW
+2026-05-25 14:55:25 NTFS permission set: DL_Corporate_HR_R --> c:\Corporate\HR (read)
+2026-05-25 14:55:25     Share permission set: DL_Corporate_HR_R --> Data_HR (read)
+2026-05-25 14:55:25 NTFS permission set: DL_Corporate_HR_RW --> c:\Corporate\HR (modify)
+2026-05-25 14:55:25     Share permission set: DL_Corporate_HR_RW --> Data_HR (change)
+2026-05-25 14:55:25 NTFS permission set: DL_Corporate_Finance_R --> c:\Corporate\Finance (read)
+2026-05-25 14:55:25     Share permission set: DL_Corporate_Finance_R --> Data_Finance (read)
+2026-05-25 14:55:25 NTFS permission set: DL_Corporate_Finance_RW --> c:\Corporate\Finance (modify)
+2026-05-25 14:55:25     Share permission set: DL_Corporate_Finance_RW --> Data_Finance (change)
+2026-05-25 14:55:25 Group not found, skipping: GL_Operations_IT_R
+2026-05-25 14:55:25 Group not found, skipping: GL_Operations_IT_RW
+2026-05-25 14:55:25 NTFS permission set: DL_Operations_Production_R --> c:\Operations\Production (read)
+2026-05-25 14:55:25     Share permission set: DL_Operations_Production_R --> Data_Production (read)
+2026-05-25 14:55:25 NTFS permission set: DL_Operations_Production_RW --> c:\Operations\Production (modify)
+2026-05-25 14:55:25     Share permission set: DL_Operations_Production_RW --> Data_Production (change)
+2026-05-25 14:55:25 NTFS permission set: DL_Operations_Production_R --> c:\Sales\Domestic (read)
+2026-05-25 14:55:25     Share permission set: DL_Operations_Production_R --> Data_Domestic (read)
+2026-05-25 14:55:25 NTFS permission set: DL_Operations_Production_RW --> c:\Sales\Domestic (modify)
+2026-05-25 14:55:25     Share permission set: DL_Operations_Production_RW --> Data_Domestic (change)
+2026-05-25 14:55:25 NTFS permission set: DL_Sales_International_R --> c:\Sales\International (read)
+2026-05-25 14:55:26     Share permission set: DL_Sales_International_R --> Data_International (read)
+2026-05-25 14:55:26 Group not found, skipping: DL_Sales_International_RW
+2026-05-25 14:55:26 Group not found, skipping: GL_Infrastructure_R
+2026-05-25 14:55:26 Group not found, skipping: GL_Infrastructure_RW
+2026-05-25 14:56:28 ERROR in Add-Permissions: Could not find file 'C:\Users\Administrator\Documents\scripting\settings\rechten.csv'.
+2026-05-25 14:56:40 Group not found, skipping: GL_Corporate_Management_R
+2026-05-25 14:56:40 Group not found, skipping: GL_Corporate_Management_RW
+2026-05-25 14:56:40 NTFS permission set: DL_Corporate_HR_R --> c:\Corporate\HR (read)
+2026-05-25 14:56:40     Share permission set: DL_Corporate_HR_R --> Data_HR (read)
+2026-05-25 14:56:40 NTFS permission set: DL_Corporate_HR_RW --> c:\Corporate\HR (modify)
+2026-05-25 14:56:40     Share permission set: DL_Corporate_HR_RW --> Data_HR (change)
+2026-05-25 14:56:40 NTFS permission set: DL_Corporate_Finance_R --> c:\Corporate\Finance (read)
+2026-05-25 14:56:40     Share permission set: DL_Corporate_Finance_R --> Data_Finance (read)
+2026-05-25 14:56:40 NTFS permission set: DL_Corporate_Finance_RW --> c:\Corporate\Finance (modify)
+2026-05-25 14:56:40     Share permission set: DL_Corporate_Finance_RW --> Data_Finance (change)
+2026-05-25 14:56:40 Group not found, skipping: GL_Operations_IT_R
+2026-05-25 14:56:40 Group not found, skipping: GL_Operations_IT_RW
+2026-05-25 14:56:40 NTFS permission set: DL_Operations_Production_R --> c:\Operations\Production (read)
+2026-05-25 14:56:40     Share permission set: DL_Operations_Production_R --> Data_Production (read)
+2026-05-25 14:56:40 NTFS permission set: DL_Operations_Production_RW --> c:\Operations\Production (modify)
+2026-05-25 14:56:40     Share permission set: DL_Operations_Production_RW --> Data_Production (change)
+2026-05-25 14:56:40 NTFS permission set: DL_Operations_Production_R --> c:\Sales\Domestic (read)
+2026-05-25 14:56:40     Share permission set: DL_Operations_Production_R --> Data_Domestic (read)
+2026-05-25 14:56:40 NTFS permission set: DL_Operations_Production_RW --> c:\Sales\Domestic (modify)
+2026-05-25 14:56:40     Share permission set: DL_Operations_Production_RW --> Data_Domestic (change)
+2026-05-25 14:56:40 NTFS permission set: DL_Sales_International_R --> c:\Sales\International (read)
+2026-05-25 14:56:40     Share permission set: DL_Sales_International_R --> Data_International (read)
+2026-05-25 14:56:40 Group not found, skipping: DL_Sales_International_RW
+2026-05-25 14:56:40 Group not found, skipping: GL_Infrastructure_R
+2026-05-25 14:56:40 Group not found, skipping: GL_Infrastructure_RW
+2026-05-25 14:57:07 Succesfully cleared AutoLogin credentials.
+2026-05-25 14:57:09 Group not found, skipping: GL_Corporate_Management_R
+2026-05-25 14:57:09 Group not found, skipping: GL_Corporate_Management_RW
+2026-05-25 14:57:09 NTFS permission set: DL_Corporate_HR_R --> c:\Corporate\HR (read)
+2026-05-25 14:57:09     Share permission set: DL_Corporate_HR_R --> Data_HR (read)
+2026-05-25 14:57:09 NTFS permission set: DL_Corporate_HR_RW --> c:\Corporate\HR (modify)
+2026-05-25 14:57:09     Share permission set: DL_Corporate_HR_RW --> Data_HR (change)
+2026-05-25 14:57:09 NTFS permission set: DL_Corporate_Finance_R --> c:\Corporate\Finance (read)
+2026-05-25 14:57:09     Share permission set: DL_Corporate_Finance_R --> Data_Finance (read)
+2026-05-25 14:57:09 NTFS permission set: DL_Corporate_Finance_RW --> c:\Corporate\Finance (modify)
+2026-05-25 14:57:09     Share permission set: DL_Corporate_Finance_RW --> Data_Finance (change)
+2026-05-25 14:57:09 Group not found, skipping: GL_Operations_IT_R
+2026-05-25 14:57:09 Group not found, skipping: GL_Operations_IT_RW
+2026-05-25 14:57:09 NTFS permission set: DL_Operations_Production_R --> c:\Operations\Production (read)
+2026-05-25 14:57:09     Share permission set: DL_Operations_Production_R --> Data_Production (read)
+2026-05-25 14:57:09 NTFS permission set: DL_Operations_Production_RW --> c:\Operations\Production (modify)
+2026-05-25 14:57:09     Share permission set: DL_Operations_Production_RW --> Data_Production (change)
+2026-05-25 14:57:09 NTFS permission set: DL_Operations_Production_R --> c:\Sales\Domestic (read)
+2026-05-25 14:57:09     Share permission set: DL_Operations_Production_R --> Data_Domestic (read)
+2026-05-25 14:57:09 NTFS permission set: DL_Operations_Production_RW --> c:\Sales\Domestic (modify)
+2026-05-25 14:57:09     Share permission set: DL_Operations_Production_RW --> Data_Domestic (change)
+2026-05-25 14:57:09 NTFS permission set: DL_Sales_International_R --> c:\Sales\International (read)
+2026-05-25 14:57:09     Share permission set: DL_Sales_International_R --> Data_International (read)
+2026-05-25 14:57:09 Group not found, skipping: DL_Sales_International_RW
+2026-05-25 14:57:09 Group not found, skipping: GL_Infrastructure_R
+2026-05-25 14:57:09 Group not found, skipping: GL_Infrastructure_RW
+2026-05-25 17:10:46 Succesfully cleared AutoLogin credentials.
+2026-05-25 17:10:55 ERROR in set-NetAdapterProperties: The term 'elseif' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-05-25 17:12:21 Succesfully cleared AutoLogin credentials.
+2026-05-25 17:12:25 ERROR in set-NetAdapterProperties: The term 'elseif' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-05-25 17:12:31 ERROR in set-NetAdapterProperties: The term 'elseif' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-05-25 17:13:31 Succesfully cleared AutoLogin credentials.
+2026-05-25 17:15:47 Succesfully cleared AutoLogin credentials.
+2026-05-25 17:15:53 Set IP config on adapter lan1
+2026-05-25 17:15:55 DHCP enabled on: wan
+2026-05-25 17:16:15 Set IP config on adapter lan2
+2026-05-26 13:04:08 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:09:22 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:09:30 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:09:42 Set Autologin for next reboot
+2026-05-26 13:09:42 Renaming computer from 'WIN-BG8UD9NMKU0' to 'dc01ASo'.
+2026-05-26 13:09:42 Rename 'WIN-BG8UD9NMKU0' to 'dc01ASo' successful.
+2026-05-26 13:10:02 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:13:54 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:14:06 Set IP config on adapter lan1
+2026-05-26 13:14:07 DHCP enabled on: wan
+2026-05-26 13:16:57 Successfully created c:\data\users\ppienter
+2026-05-26 13:16:57 Successfully created c:\Corporate\Management
+2026-05-26 13:16:57 Successfully created c:\Corporate\HR
+2026-05-26 13:16:57 Successfully created c:\Corporate\Finance
+2026-05-26 13:16:57 Successfully created c:\Operations\IT
+2026-05-26 13:16:57 Successfully created c:\Operations\Production
+2026-05-26 13:16:57 Successfully created c:\Sales\Domestic
+2026-05-26 13:16:57 Successfully created c:\Sales\International
+2026-05-26 13:16:57 Successfully created C:\Infrastructure
+2026-05-26 13:17:17 Share created: Data_Management --> c:\Corporate\Management
+2026-05-26 13:17:17 Share created: Data_HR --> c:\Corporate\HR
+2026-05-26 13:17:17 Share created: Data_Finance --> c:\Corporate\Finance
+2026-05-26 13:17:17 Share created: Data_IT --> c:\Operations\IT
+2026-05-26 13:17:17 Share created: Data_Production --> c:\Operations\Production
+2026-05-26 13:17:18 Share created: Data_Domestic --> c:\Sales\Domestic
+2026-05-26 13:17:18 Share created: Data_International --> c:\Sales\International
+2026-05-26 13:17:18 Share created: Data_Infrastucture --> C:\Infrastructure
+2026-05-26 13:18:33 Group not found, skipping: GL_Corporate_Management_R
+2026-05-26 13:18:33 Group not found, skipping: GL_Corporate_Management_RW
+2026-05-26 13:18:33 Group not found, skipping: DL_Corporate_HR_R
+2026-05-26 13:18:33 Group not found, skipping: DL_Corporate_HR_RW
+2026-05-26 13:18:33 Group not found, skipping: DL_Corporate_Finance_R
+2026-05-26 13:18:33 Group not found, skipping: DL_Corporate_Finance_RW
+2026-05-26 13:18:33 Group not found, skipping: GL_Operations_IT_R
+2026-05-26 13:18:33 Group not found, skipping: GL_Operations_IT_RW
+2026-05-26 13:18:33 Group not found, skipping: DL_Operations_Production_R
+2026-05-26 13:18:33 Group not found, skipping: DL_Operations_Production_RW
+2026-05-26 13:18:33 Group not found, skipping: DL_Operations_Production_R
+2026-05-26 13:18:33 Group not found, skipping: DL_Operations_Production_RW
+2026-05-26 13:18:33 Group not found, skipping: DL_Sales_International_R
+2026-05-26 13:18:33 Group not found, skipping: DL_Sales_International_RW
+2026-05-26 13:18:33 Group not found, skipping: GL_Infrastructure_R
+2026-05-26 13:18:33 Group not found, skipping: GL_Infrastructure_RW
+2026-05-26 13:18:48 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:19:44 Installed AD-Domain-Services
+2026-05-26 13:20:11 Set Autologin for next reboot
+2026-05-26 13:21:21 Created forest: BelgoCorpASo.lab
+2026-05-26 13:27:23 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:27:49 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:27:51 Attempting creation of organizational units...
+2026-05-26 13:27:52 Created OU 'Corporate' in 'DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Management' in 'OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Executives' in 'OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Department Heads' in 'OU=Management,OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'HR' in 'OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Finance' in 'OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Operations' in 'DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'IT' in 'OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Development' in 'OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Support' in 'OU=IT,OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Production' in 'OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Manufacturing' in 'OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Quality Assurance' in 'OU=Production,OU=Operations,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Sales' in 'OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'Domestic' in 'OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:27:52 Created OU 'International' in 'OU=Sales,OU=Corporate,DC=BelgoCorpASo,DC=lab'
+2026-05-26 13:28:50 Add-SecurityGroups: OU 'GL_Groups' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-26 13:28:50 Sucessfully created securitygroup: GL_Corporate_Management_R
+2026-05-26 13:28:50 Sucessfully created securitygroup: GL_Corporate_Management_RW
+2026-05-26 13:28:50 Add-SecurityGroups: OU 'DL_Groups' created in 'DC=BelgoCorpASo,DC=lab'.
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Corporate_HR_R
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Corporate_HR_RW
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Corporate_Finance_R
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Corporate_Finance_RW
+2026-05-26 13:28:50 Sucessfully created securitygroup: GL_Operations_IT_R
+2026-05-26 13:28:50 Sucessfully created securitygroup: GL_Operations_IT_RW
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Operations_Production_R
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Operations_Production_RW
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Sales_Domestic_R
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Sales_Domestic_RW
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Sales_International_R
+2026-05-26 13:28:50 Sucessfully created securitygroup: DL_Sales_International_RW
+2026-05-26 13:29:37 Add-DomainUsers: created user 'olivier.dupont' (Olivier Dupont) in OU 'Executives'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'marie.peeters' (Marie Peeters) in OU 'Department Heads'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'sophie.janssens' (Sophie Janssens) in OU 'HR'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'thomas.desmet' (Thomas De Smet) in OU 'Finance'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'emma.vandamme' (Emma Van Damme) in OU 'Development'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'lucas.verhoeven' (Lucas Verhoeven) in OU 'Support'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'alexander.maes' (Alexander Maes) in OU 'Manufacturing'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'julie.debacker' (Julie De Backer) in OU 'Quality Assurance'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'laura.claes' (Laura Claes) in OU 'Domestic'
+2026-05-26 13:29:37 Add-DomainUsers: created user 'noah.willems' (Noah Willems) in OU 'International'
+2026-05-26 13:29:37 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'dany.dedeken'.
+2026-05-26 13:29:37 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'patrick.demeersman'.
+2026-05-26 13:30:04 Added user: olivier.dupont to securitygroup: GL_Corporate_Management_RW
+2026-05-26 13:30:04 Added user: olivier.dupont to securitygroup: DL_Corporate_HR_RW
+2026-05-26 13:30:04 Added user: olivier.dupont to securitygroup: DL_Corporate_Finance_RW
+2026-05-26 13:30:05 Added user: marie.peeters to securitygroup: GL_Corporate_Management_RW
+2026-05-26 13:30:05 Added user: marie.peeters to securitygroup: DL_Corporate_HR_R
+2026-05-26 13:30:05 Added user: sophie.janssens to securitygroup: DL_Corporate_HR_RW
+2026-05-26 13:30:05 Added user: thomas.desmet to securitygroup: DL_Corporate_Finance_RW
+2026-05-26 13:30:05 Added user: thomas.desmet to securitygroup: DL_Corporate_HR_R
+2026-05-26 13:30:05 Added user: emma.vandamme to securitygroup: GL_Operations_IT_RW
+2026-05-26 13:30:05 Added user: lucas.verhoeven to securitygroup: GL_Operations_IT_RW
+2026-05-26 13:30:05 Added user: alexander.maes to securitygroup: DL_Operations_Production_RW
+2026-05-26 13:30:05 Added user: julie.debacker to securitygroup: DL_Operations_Production_RW
+2026-05-26 13:30:05 Added user: laura.claes to securitygroup: DL_Sales_Domestic_RW
+2026-05-26 13:30:05 Added user: laura.claes to securitygroup: DL_Sales_International_R
+2026-05-26 13:30:05 Added user: noah.willems to securitygroup: DL_Sales_International_RW
+2026-05-26 13:30:05 Added user: noah.willems to securitygroup: DL_Sales_Domestic_R
+2026-05-26 13:30:05 Failed to add user: dany.dedeken to securitygroup: GL_Operations_IT_RW
+2026-05-26 13:30:05 ERROR: group 'GL_Infrastructure_RW' not found, skipped for 'dany.dedeken'.
+2026-05-26 13:30:05 Failed to add user: patrick.demeersman to securitygroup: GL_Operations_IT_RW
+2026-05-26 13:30:05 ERROR: group 'GL_Infrastructure_RW' not found, skipped for 'patrick.demeersman'.
+2026-05-26 13:38:17 Succesfully cleared AutoLogin credentials.
+2026-05-26 13:38:23 Add-DomainUsers: user 'olivier.dupont' already exists, skipped.
+2026-05-26 13:38:23 Add-DomainUsers: user 'marie.peeters' already exists, skipped.
+2026-05-26 13:38:23 Add-DomainUsers: user 'sophie.janssens' already exists, skipped.
+2026-05-26 13:38:23 Add-DomainUsers: user 'thomas.desmet' already exists, skipped.
+2026-05-26 13:38:23 Add-DomainUsers: created user 'emma.vandamme' (Emma Van Damme) in OU 'Development'
+2026-05-26 13:38:23 Add-DomainUsers: user 'lucas.verhoeven' already exists, skipped.
+2026-05-26 13:38:23 Add-DomainUsers: user 'alexander.maes' already exists, skipped.
+2026-05-26 13:38:23 Add-DomainUsers: user 'julie.debacker' already exists, skipped.
+2026-05-26 13:38:23 Add-DomainUsers: user 'laura.claes' already exists, skipped.
+2026-05-26 13:38:23 Add-DomainUsers: user 'noah.willems' already exists, skipped.
+2026-05-26 13:38:23 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'dany.dedeken'.
+2026-05-26 13:38:23 ERROR in Add-DomainUsers: OU 'General IT' not found in ous.csv, skipped 'patrick.demeersman'.
+2026-05-26 15:19:22 Succesfully cleared AutoLogin credentials.
